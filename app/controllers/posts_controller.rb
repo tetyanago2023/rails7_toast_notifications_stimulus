@@ -8,6 +8,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1 or /posts/1.json
   def show
+    flash[:notice] = 'Just testing, honey!'
   end
 
   # GET /posts/new
